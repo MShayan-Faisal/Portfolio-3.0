@@ -1176,3 +1176,32 @@ body.nav-active .nav__list-item:nth-child(10) {
   max-width: 760px;
   z-index: 0;
 }
+
+
+/* --- Fix for mobile button not clickable --- */
+#portfolio {
+  position: relative;
+  z-index: 1;
+}
+
+#portfolio a.btn {
+  position: relative;
+  z-index: 20;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+
+/* Prevent Swiper or grid overlays from blocking touch */
+.swiper,
+.grid,
+.swiper-wrapper,
+.swiper-slide {
+  z-index: 0 !important;
+}
+
+/* In case a transparent overlay blocks touch */
+.overlay,
+.image-slider,
+.banner-slider {
+  pointer-events: none;
+}
