@@ -220,7 +220,7 @@ body {
 
 .description {
   font-weight: 400;
-  font-size: 21px;
+  font-size: 40px;
   line-height: 1.8;
   color: var(--text-muted);
   max-width: 490px;
