@@ -4,12 +4,6 @@ A modern and responsive **personal portfolio website** built using **HTML, CSS, 
 
 ---
 
-## 🌐 Live Preview
-🔗 [View Portfolio](#)  
-*(Add your live link here)*
-
----
-
 ## 💡 Features
 - ⚡ Clean and modern UI design  
 - 📱 Fully responsive (mobile-friendly)  
